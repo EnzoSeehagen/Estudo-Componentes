@@ -8,4 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
 
   title = 'ProjetoAngular';
+  transferencia: any;
+
+  transferir($event){
+    console.log($event);
+    this.transferencia = $event
+  }
 }
